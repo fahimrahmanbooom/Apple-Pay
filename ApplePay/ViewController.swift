@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        payment.merchantIdentifier = "enter your merchand ID here"
+        payment.merchantIdentifier = "merchant.com.fahimrahman.applePayFahim"
         payment.supportedNetworks = [.masterCard, .visa,]
         payment.supportedCountries = ["US"]
         payment.merchantCapabilities = .capability3DS
